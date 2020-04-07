@@ -11,10 +11,10 @@
         <version>5.5.1.RELEASE</version>
     </parent>
 
-    <name>TERASOLUNA Server Framework for Java (5.x) Web Blank Multi Project (MyBatis3)</name>
-    <description>Web Blank Multi Project (MyBatis3) using TERASOLUNA Server Framework for Java (5.x)</description>
-    <url>http://terasoluna.org</url>
-    <inceptionYear>2014</inceptionYear>
+    <name>Simple CRUD Application (MyBatis3)</name>
+    <description>学習用の簡単なマスタメンテナンス画面</description>
+    <url>http://www.stnet.co.jp</url>
+    <inceptionYear>2020</inceptionYear>
     <licenses>
         <license>
             <name>Apache License, Version 2.0</name>
@@ -23,8 +23,8 @@
         </license>
     </licenses>
     <organization>
-        <name>TERASOLUNA Framework Team</name>
-        <url>http://terasoluna.org</url>
+        <name>STNet inc.</name>
+        <url>http://www.stnet.co.jp</url>
     </organization>
     <repositories>
         <repository>
