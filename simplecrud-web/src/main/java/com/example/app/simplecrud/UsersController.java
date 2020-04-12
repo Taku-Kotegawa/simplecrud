@@ -27,7 +27,7 @@ public class UsersController {
 
     private static final Logger logger = LoggerFactory
             .getLogger(UsersController.class);
-    private static final DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("uuuu/MM/dd hh:mm:ss");
+    private static final DateTimeFormatter DATE_TIME_FORMATTER = DateTimeFormatter.ofPattern("uuuu/MM/dd hh:mm:ss");
     @Inject
     protected Mapper beanMapper;
     @Inject
@@ -43,8 +43,8 @@ public class UsersController {
 
         for (Users users : usersService.findAllByExample(new UsersExample())) {
             UsersForm usersForm = beanMapper.map(users, UsersForm.class);
-            usersForm.setCreatedAtDisp(users.getCreatedAt().format(dateTimeFormatter));
-            usersForm.setChangedAtDisp(users.getChangedAt().format(dateTimeFormatter));
+            usersForm.setCreatedAtDisp(users.getCreatedAt().format(DATE_TIME_FORMATTER));
+            usersForm.setChangedAtDisp(users.getChangedAt().format(DATE_TIME_FORMATTER));
 
             usersFormList.add(usersForm);
         }
