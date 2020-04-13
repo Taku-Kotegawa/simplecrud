@@ -53,8 +53,8 @@
     </tbody>
   </table>
 
-  <input type="submit" name="redo" value="Back" onclick="dis(this);" />
-  <input type="submit" value="Save" onclick="dis(this);"/>
+  <input type="submit" name="redo" value="戻る" onclick="dis(this);" />
+  <input type="submit" value="保存" onclick="dis(this);"/>
 </form:form>
 
 <script>

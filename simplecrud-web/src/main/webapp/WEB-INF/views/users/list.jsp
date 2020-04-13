@@ -1,10 +1,3 @@
-<style>
-.inline {
-  display: inline-block;
-}
-</style>
-
-
 <!-- ユーザ覧表-->
 <h2>ユーザ一覧</h2>
 
@@ -34,15 +27,10 @@
       <tr>
         <td>${status.count}</td>
         <td>
-          <form:form modelAttribute="usersForm" action="update"
+          <form:form modelAttribute="usersForm" action="detail"
             cssClass="inline">
             <form:hidden path="uid" value="${f:h(users.uid)}" />
-            <input type="submit" name="form" value="編集" />
-          </form:form>
-          <form:form modelAttribute="usersForm" action="delete"
-            cssClass="inline">
-            <form:hidden path="uid" value="${f:h(users.uid)}" />
-            <input type="submit" value="削除" />
+            <input type="submit" name="form" value="参照" />
           </form:form>
         </td>
         <td>${f:h(users.uid)}</td>

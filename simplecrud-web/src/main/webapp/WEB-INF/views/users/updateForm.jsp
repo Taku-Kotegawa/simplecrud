@@ -47,6 +47,10 @@
       </tr>
     </tbody>
   </table>
-
-  <input type="submit" name="confirm" value="Confirm" />
+    <input type="submit" name="form" value="戻る" form="detail"/>
+  <input type="submit" name="confirm" value="確認" />
+</form:form>
+<form:form modelAttribute="usersForm" action="detail"
+cssClass="inline" id="detail">
+<form:hidden path="uid" value="${f:h(users.uid)}"/>
 </form:form>

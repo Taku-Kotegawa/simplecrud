@@ -40,6 +40,6 @@
       </tr>
     </tbody>
   </table>
-
-  <input type="submit" name="confirm" value="Confirm" />
+  <a href="list">一覧に戻る</a>
+  <input type="submit" name="confirm" value="確認" />
 </form:form>

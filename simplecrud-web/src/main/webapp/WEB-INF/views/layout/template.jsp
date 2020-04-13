@@ -7,6 +7,12 @@
 <script type="text/javascript">
     
 </script>
+<style>
+.inline {
+  display: inline-block;
+}
+</style>
+
 <c:set var="titleKey">
     <tiles:insertAttribute name="title" ignore="true" />
 </c:set>

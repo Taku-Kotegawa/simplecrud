@@ -151,6 +151,17 @@ public class UsersController {
         return "users/deleteComplete";
     }
 
+    // ---------------- 参照 ---------------------------------------------------------
+
+    @RequestMapping(value = "detail")
+    public String detail(UsersForm form, Model model) {
+
+        Users users = usersService.findOneByPrimaryKey(form.getUid());
+
+        model.addAttribute("users", users);
+
+        return "users/detail";
+    }
 
     // -------------------------------------------------------------------------
 
