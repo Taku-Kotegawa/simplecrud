@@ -4,45 +4,45 @@
   <table>
     <tbody>
       <tr>
-        <th width="100px">ユーザID</th>
+        <th width="100px"><form:label path="uid">ユーザID</form:label></th>
         <td>
           ${f:h(usersForm.uid)}
           <form:hidden path="uid" />
         </td>
       </tr>
       <tr>
-        <th>パスワード</th>
+        <th><form:label path="pass">パスワード</form:label></th>
         <td>
           <form:input path="pass" autocomplete="off" />
           <form:errors path="pass" />
         </td>
       </tr>
       <tr>
-        <th>氏名</th>
+        <th><form:label path="name">氏名</form:label></th>
         <td>
           <form:input path="name" autocomplete="off" />
           <form:errors path="name" />
         </td>
       </tr>
       <tr>
-        <th>メール</th>
+        <th><form:label path="mail">メール</form:label></th>
         <td>
           <form:input path="mail" autocomplete="off" />
           <form:errors path="mail" />
         </td>
       </tr>
       <tr>
-        <th>ステータス</th>
-        <td>
-          <form:input path="status" autocomplete="off" />
-          <form:errors path="status" />
-        </td>
-      </tr>
-      <tr>
-        <th>コメント</th>
+        <th><form:label path="comment">コメント</form:label></th>
         <td>
           <form:textarea path="comment" rows="5" cols="30" autocomplete="off" />
           <form:errors path="comment" />
+        </td>
+      </tr>
+      <tr>
+        <th><form:label path="status">ステータス</form:label></th>
+        <td>
+          <form:input path="status" autocomplete="off" />
+          <form:errors path="status" />
         </td>
       </tr>
     </tbody>

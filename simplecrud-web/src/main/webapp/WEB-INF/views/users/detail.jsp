@@ -26,19 +26,19 @@
           ${f:h(users.mail)}
         </td>
       </tr>
-      <tr>
-        <th>ステータス</th>
-        <td>
-          ${f:h(users.status)}
-        </td>
-      </tr>
+
       <tr>
         <th>コメント</th>
         <td>
           ${f:h(users.comment)}
         </td>
       </tr>
-    </tbody>
+      <tr>
+        <th>ステータス</th>
+        <td>
+          ${f:h(users.status)}
+        </td>
+      </tr>    </tbody>
   </table>
 
 <a href="list">一覧に戻る</a>
@@ -51,6 +51,7 @@
   <input type="submit" value="削除" onclick="dis(this);"/>
 </form:form>
 
+<br>
 
 <script>
 function dis(e) {

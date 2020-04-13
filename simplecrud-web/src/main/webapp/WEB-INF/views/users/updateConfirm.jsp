@@ -37,17 +37,17 @@
         </td>
       </tr>
       <tr>
-        <th>ステータス</th>
-        <td>
-          ${f:h(users.status)}
-          <form:hidden path="status" />
-        </td>
-      </tr>
-      <tr>
         <th>コメント</th>
         <td>
           ${f:h(users.comment)}
           <form:hidden path="comment" />
+        </td>
+      </tr>
+      <tr>
+        <th>ステータス</th>
+        <td>
+          ${f:h(users.status)}
+          <form:hidden path="status" />
         </td>
       </tr>
     </tbody>
