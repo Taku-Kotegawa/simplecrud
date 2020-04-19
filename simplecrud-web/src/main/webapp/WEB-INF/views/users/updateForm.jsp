@@ -1,7 +1,7 @@
 <t:messagesPanel />
 <form:form modelAttribute="usersForm" action="update">
 
-  <table>
+  <table class="table">
     <tbody>
       <tr>
         <th width="100px"><form:label path="uid">ユーザID</form:label></th>

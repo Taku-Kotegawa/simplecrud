@@ -25,7 +25,7 @@ public class UsersServiceImpl implements UsersService {
     @Override
     public Users findOneByPrimaryKey(String uid) {
 
-        return usersRepository.selectByPrimaryKey(uid);
+        return findOne(uid);
     }
 
     @Override

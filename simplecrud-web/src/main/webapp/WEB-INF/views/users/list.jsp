@@ -6,7 +6,7 @@
     <input type="submit" name="form" value="新規登録" />
   </form:form>
 </div>
-<table>
+<table class="table">
   <thead>
     <tr>
       <th>#</th>

@@ -6,7 +6,7 @@
 
 <form:form modelAttribute="usersForm" action="create">
 
-  <table>
+  <table class="table">
     <tbody>
       <tr>
         <th width="100px">ユーザID</th>

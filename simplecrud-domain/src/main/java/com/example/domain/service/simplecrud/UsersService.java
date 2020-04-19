@@ -7,7 +7,6 @@ import java.util.List;
 
 public interface UsersService {
 
-
     Users findOneByPrimaryKey(String uid);
 
     List<Users> findAllByExample(UsersExample usersExample);

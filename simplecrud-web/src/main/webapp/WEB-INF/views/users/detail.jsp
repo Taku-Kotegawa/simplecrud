@@ -1,6 +1,6 @@
 <t:messagesPanel />
 
-  <table>
+  <table class="table">
     <tbody>
       <tr>
         <th width="100px">ユーザID</th>
